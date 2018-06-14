@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="roxo">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Visão geral</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-content>
+        <ion-list>              
+        <h3><b>Boletos cadastrados:</b> {{totalb}}</h3>
+      </ion-list>
+    </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-content>
+      <ion-list>              
+      <h3><b>Cheques cadastrados:</b> {{totalc}}</h3>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+<ion-card-content>
+  <ion-list>              
+  <h3><b>Documentos cadastrados:</b> {{total}}</h3>
+</ion-list>
+</ion-card-content>
+</ion-card>
+  <ion-fab right bottom>
+    <button ion-fab color="roxo" (click)="GoCadastro()"><ion-icon name="add"></ion-icon></button>
+ </ion-fab>
+</ion-content>

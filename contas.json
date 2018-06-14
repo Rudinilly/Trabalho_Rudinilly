@@ -1,0 +1,78 @@
+{
+  "cheque": [
+    {
+      "id": 1,
+      "tipo": "Cheque",
+      "pagamento": "28/05/2018",
+      "valor": "25.00"
+    },
+    {
+      "tipo": "Cheque",
+      "pagamento": "28/06/2018",
+      "valor": "35.00",
+      "id": 2
+    },
+    {
+      "tipo": "Cheque",
+      "pagamento": "29/06/2018",
+      "valor": "60.00",
+      "id": 3
+    },
+    {
+      "tipo": "Cheque",
+      "pagamento": "23/07/2019",
+      "valor": "150.00",
+      "id": 4
+    },
+    {
+      "tipo": "Cheque",
+      "pagamento": "29/05/2019",
+      "valor": "200",
+      "id": 5
+    },
+    {
+      "tipo": "Cheque",
+      "pagamento": "24/24/2024",
+      "valor": "34562424",
+      "id": 6
+    },
+    {
+      "tipo": "Cheque",
+      "pagamento": "23/09/2018",
+      "valor": "100.00",
+      "id": 7
+    }
+  ],
+  "boleto": [
+    {
+      "tipo": "Boleto",
+      "pagamento": "12/07/2018",
+      "valor": "200.00",
+      "id": 1
+    },
+    {
+      "tipo": "Boleto",
+      "pagamento": "30/12/2018",
+      "valor": "300.00",
+      "id": 2
+    },
+    {
+      "tipo": "Boleto",
+      "pagamento": "26/07/2018",
+      "valor": "100",
+      "id": 3
+    },
+    {
+      "tipo": "Boleto",
+      "pagamento": "23/09/2018",
+      "valor": "300.00",
+      "id": 4
+    },
+    {
+      "tipo": "Boleto",
+      "pagamento": "24/11/2018",
+      "valor": "500.00",
+      "id": 5
+    }
+  ]
+}

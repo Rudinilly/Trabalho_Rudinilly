@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="roxo">
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Cheques</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+<ion-list>
+  <ion-item *ngFor="let d of dados">
+    <h2><b>{{ d.tipo }} {{d.id}}</b></h2>
+    <h3><b>Data Pagamento: {{ d.pagamento }}</b></h3>
+    <h3><b>Valor: R${{ d.valor }}</b></h3>
+  </ion-item>
+</ion-list>
+<ion-fab right bottom>
+    <button ion-fab color="roxo" (click)="GoCadastro()"><ion-icon name="add"></ion-icon></button>
+ </ion-fab>
+</ion-content>
